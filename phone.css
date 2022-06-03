@@ -1,0 +1,82 @@
+/* navigation section */
+#logo img {
+    height: 19px;
+    margin: 2px 4px;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar::before {
+    height: 80px;
+}
+
+#navbar ul li a {
+    padding: 3px 9px;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 0.5rem;
+    margin: 0 10px;
+}
+
+/* home section */
+#home h1 {
+    font-size: 2rem;
+}
+
+#home p {
+    /* font-family: 'Water Brush', cursive; */
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: 0.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    background-color: brown;
+    border-radius: 4px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+/* services section */
+#services {
+
+    display: flex;
+    flex-direction: column;
+    margin: 2px 15px;
+    margin-bottom: 35px;
+}
+
+#services .box {
+    margin: 10px 15px;
+}
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#client-section::before {
+    content: "";
+    background: url(bg2.jpg) no-repeat center center/cover;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients img {
+    width: 160px;
+    padding: 6px;
+    height: auto;
+}
+
+.h-primary {
+    font-size: 1rem;
+}
